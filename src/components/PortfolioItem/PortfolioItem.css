@@ -1,0 +1,30 @@
+.portfolio-item-cls {
+  background-color: #222;
+  display: block;
+  border: 1px solid #222;
+}
+.project-desc-cls {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.project-title-cls {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.portfolio-item-cls ul {
+  list-style: none !important;
+  padding-left: 0px;
+  margin-bottom: 8px;
+}
+.portfolio-item-cls ul li {
+  font-size: 12px;
+}
+.portfolio-item-cls a,
+.portfolio-item-cls a.hvr-grow::before,
+.portfolio-item-cls a.hvr-grow::after,
+.portfolio-item-cls a.hvr-grow:hover {
+    color: #007ced !important;
+}
+.portfolio-item-cls a.hvr-grow:hover{
+    font-weight: bold;
+}

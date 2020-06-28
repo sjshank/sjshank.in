@@ -1,0 +1,27 @@
+.certification-item-box {
+  border: 2px solid #f5f5f540;
+  border-radius: 10px;
+}
+.certification-item-box.hvr-grow-shadow{
+    display: block;
+}
+.certificate-logo-cls {
+  border-right: 2px solid #f5f5f540;
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.certificate-detail-cls {
+  width: 100%;
+  height: 100%;
+}
+.certificate-detail-cls  p{
+  font-size: 12px;
+}
+.certificate-image-cls {
+  width: 80px;
+  height: 80px;
+}

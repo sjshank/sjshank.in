@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+body {
+  font-family: "Ubuntu", Helvetica, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.5em !important;
+  color: #d5d5d5;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background-position: center center;
+  background-size: calc(100% + 25px);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: left;
+  word-break: keep-all;
+}
+
+a{
+  outline: none;
+}

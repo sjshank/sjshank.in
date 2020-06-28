@@ -1,0 +1,15 @@
+
+.contact-content-cls {
+    font-family: "Ubuntu";
+  }
+  .icon-column-cls {
+    width: 3rem;
+  }
+  .fa-custom-cls::before {
+    color: #007ced;
+  }
+  .address-ul {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 12px;
+  }

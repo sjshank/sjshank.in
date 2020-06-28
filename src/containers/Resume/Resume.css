@@ -1,0 +1,21 @@
+.resume-content-cls {
+  opacity: 0;
+  -webkit-animation: mainFadeIn 2s forwards;
+  -o-animation: mainFadeIn 2s forwards;
+  animation: mainFadeIn 2s forwards;
+  animation-delay: 0.6s;
+}
+
+.section-divider-cls {
+  border: 1px solid #f5f5f51a;
+  width: 100px;
+}
+
+@keyframes mainFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

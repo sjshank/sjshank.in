@@ -1,0 +1,33 @@
+.technology-item-cls h5 {
+  font-family: "kalam", cursive;
+}
+
+.technology-section .gEIJqc:hover:enabled,
+.technology-section .gEIJqc:focus:enabled {
+  color: #fff;
+  background-color: #007ced;
+  box-shadow: 0 0 2px 0 #333;
+}
+
+.technology-section .QmVdP,
+.technology-section .gEIJqc{
+    background-color: #007ced;
+    box-shadow: 0 0 1px 3px #007ced;
+}
+.technology-section .dautGI:hover, 
+.technology-section .dautGI:focus,
+.technology-section .QmVdP:hover,
+.technology-section .QmVdP:focus {
+    box-shadow: 0 0 1px 3px #007ced;
+    outline: 0;
+}
+.technology-section button.rec-dot {
+    box-shadow: 0 0 1px 2px #007ced;
+}
+.technology-section .fptlcG:disabled{
+    background-color: transparent;
+}
+.tech-img-cls{
+    width: 60px;
+    height: 70px;
+}

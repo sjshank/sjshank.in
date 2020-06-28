@@ -1,0 +1,9 @@
+.expertise-item .icon-column-cls {
+    width: 3rem;
+  }
+  .expertise-item .fa-custom-cls::before {
+    color: #007ced;
+  }
+  .expert-text-cls p{
+    font-size: 12px;
+  }

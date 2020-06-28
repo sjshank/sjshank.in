@@ -1,0 +1,30 @@
+.contact-form-section .input-control-cls,
+.contact-form-section .input-control-cls:focus {
+  border: 2px solid #f5f5f540;
+  color: #eee;
+  background-color: transparent;
+  border-color: #555;
+  padding: 10px 25px 10px 12px;
+  box-shadow: none;
+  outline: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.contact-form-section .input-control-cls:focus {
+  border: 2px solid #007ced;
+  transform: translateZ(0);
+}
+
+.contact-from-button-section .site-btn-cls {
+  color: #fff;
+  background-color: #333;
+  box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.78);
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  border-color: #007ced;
+  cursor: pointer;
+}
+.contact-from-button-section .btn-primary::before {
+  background-color: none;
+}
+.contact-from-button-section .hvr-rectangle-out::before {
+  background-color: #007ced !important;
+}

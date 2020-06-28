@@ -1,0 +1,26 @@
+/* What I Do --- generic section*/
+.block-title-cls h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 21px;
+  margin: 0 0 20px;
+  font-weight: bold;
+  z-index: 1;
+  padding-bottom: 7px;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.block-title-cls h2::after {
+  background-color: #007ced;
+  display: block;
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 4px;
+  bottom: 0;
+}
+.block-title-cls h2::before,
+.block-title-cls h2:hover::before,
+.block-title-cls h2:hover::after {
+  background-color: #007ced;
+}

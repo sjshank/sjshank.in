@@ -1,0 +1,13 @@
+a.hvr-grow:hover,
+a.hvr-grow:focus,
+a.hvr-grow:active {
+  color: #ffffff !important;
+  opacity: 1;
+}
+a.is-active-cls {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+li.menu-item-cls > a {
+  font-size: 15px;
+}
