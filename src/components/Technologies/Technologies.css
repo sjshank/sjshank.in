@@ -2,29 +2,33 @@
   font-family: "kalam", cursive;
 }
 
-.technology-section .gEIJqc:hover:enabled,
-.technology-section .gEIJqc:focus:enabled {
+.technology-section .rec-arrow:hover:enabled,
+.technology-section .rec-arrow:focus:enabled {
   color: #fff;
   background-color: #007ced;
   box-shadow: 0 0 2px 0 #333;
 }
 
-.technology-section .QmVdP,
-.technology-section .gEIJqc{
+.technology-section .rec-arrow,
+.technology-section .rec-arrow{
     background-color: #007ced;
     box-shadow: 0 0 1px 3px #007ced;
 }
-.technology-section .dautGI:hover, 
-.technology-section .dautGI:focus,
-.technology-section .QmVdP:hover,
-.technology-section .QmVdP:focus {
-    box-shadow: 0 0 1px 3px #007ced;
-    outline: 0;
+.technology-section .rec-dot:hover, 
+.technology-section .rec-dot:focus,
+.technology-section .rec-dot:hover,
+.technology-section .rec-dot:focus {
+    box-shadow: 0 0 1px 3px #007ced !important;
+    outline: 0 !important;
+    background-color: #007ced;
+}
+.technology-section button.rec-dot_active{
+    background-color: #007ced;
 }
 .technology-section button.rec-dot {
     box-shadow: 0 0 1px 2px #007ced;
 }
-.technology-section .fptlcG:disabled{
+.technology-section .rec-arrow:disabled{
     background-color: transparent;
 }
 .tech-img-cls{
