@@ -5,7 +5,7 @@ import BlockTitle from '../BlockTitle/BlockTitle';
 const Certificates = (props) => {
     return (
         <React.Fragment>
-            <div className="row">
+            <div className="row mobile-block-title">
                 <div className="col-12">
                     <BlockTitle title="Certificates & Courses"></BlockTitle>
                 </div>

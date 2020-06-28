@@ -12,7 +12,7 @@ const FunFact = (props) => {
                         <ul>
                             <li><i className="fa fa-heart-o fa-3x fa-custom-cls" aria-hidden="true"></i></li>
                             <li className="pt-1"><h6 className="fact-title">Happy Clients</h6></li>
-                            <li><h5>5</h5></li>
+                            <li><h5>8</h5></li>
                         </ul>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const FunFact = (props) => {
                         <ul>
                             <li><i className="fa fa-trophy fa-3x fa-custom-cls" aria-hidden="true"></i></li>
                             <li className="pt-1"><h6 className="fact-title">Achievements</h6></li>
-                            <li><h5>7</h5></li>
+                            <li><h5>10</h5></li>
                         </ul>
                     </div>
                 </div>

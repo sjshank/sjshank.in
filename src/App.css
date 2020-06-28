@@ -91,4 +91,7 @@
   .app-cls .timeline-item-cls:last-child::before {
     bottom: 10px;
   }
+  .mobile-block-title{
+    margin-top: 15px;
+  }
 }

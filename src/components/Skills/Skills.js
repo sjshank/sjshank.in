@@ -5,7 +5,7 @@ import "./Skills.css";
 const Skills = (props) => {
     return (
         <div className="row mt-5">
-            <div className="col-xs-12 col-md-12 col-sm-12 col-lg-4">
+            <div className="col-xs-12 col-md-12 col-sm-12 col-lg-4 mobile-block-title">
                 <div className="row">
                     <div className="col-12">
                         <BlockTitle title="Frontend Skills"></BlockTitle>
@@ -27,7 +27,7 @@ const Skills = (props) => {
                     </pre>
                 </div>
             </div>
-            <div className="col-xs-12 col-md-12 col-sm-12 col-lg-4">
+            <div className="col-xs-12 col-md-12 col-sm-12 col-lg-4 mobile-block-title">
                 <div className="row">
                     <div className="col-12 pl-lg-5 ">
                         <BlockTitle title="Blockchain Skills"></BlockTitle>
@@ -44,7 +44,7 @@ const Skills = (props) => {
                     </pre>
                 </div>
             </div>
-            <div className="col-xs-12 col-md-12 col-sm-12 col-lg-4">
+            <div className="col-xs-12 col-md-12 col-sm-12 col-lg-4 mobile-block-title">
                 <div className="row">
                     <div className="col-12 pl-lg-5">
                         <BlockTitle title="Professional Skills"></BlockTitle>
