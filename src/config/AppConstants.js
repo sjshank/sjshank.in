@@ -9,6 +9,6 @@ export const TOAST_OPTIONS = {
     hideProgressBar: true
 };
 
-export const GITHUB_REPO_URL = "https://api.github.com/users/sjshank/repos";
+export const GITHUB_REPO_URL = "https://api.github.com/users/sjshank/repos?per_page=200";
 
 export const GENERIC_ERROR_MSG = "Your request cannot be completed at this moment ! Please try after sometime.";

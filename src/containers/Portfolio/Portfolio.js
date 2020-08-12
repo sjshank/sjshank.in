@@ -22,7 +22,8 @@ class PortfolioComponent extends Component {
         this.setState({ showSpinner: true });
         Axios.get(AppConstants.GITHUB_REPO_URL)
             .then(response => {
-                this.setState({ projectList: response.data, showSpinner: false });
+                const sortedRepos = [...response.data.sort((a,b)=> new Date(b['created_at']) - new Date(a['created_at']))];
+                this.setState({ projectList: sortedRepos, showSpinner: false });
             })
             .catch(error => {
                 this.setState({ showSpinner: false });

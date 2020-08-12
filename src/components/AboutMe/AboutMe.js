@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useDencrypt } from "use-dencrypt-effect";
 import "./AboutMe.css";
@@ -6,11 +6,11 @@ import "./AboutMe.css";
 const AboutMe = (props) => {
     let initialCounterState = 3500;
     const { result, dencrypt } = useDencrypt();
+    const i = useRef(0);
     useEffect(() => {
-        let i = 0;
         const action = setInterval(() => {
-            dencrypt(props.intro.workedAs[i]);
-            i = i === props.intro.workedAs.length - 1 ? 0 : i + 1;
+            dencrypt(props.intro.workedAs[i.current]);
+            i.current = i.current === props.intro.workedAs.length - 1 ? 0 : i.current + 1;
         }, initialCounterState);
         return () => clearInterval(action);
     });

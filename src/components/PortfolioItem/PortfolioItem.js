@@ -16,6 +16,7 @@ const PortfolioItem = (props) => {
                     <li className="pr-2 pl-2 text-muted">Open issues ({props.item.open_issues})</li><span>|</span>
                     <li className="pr-2 pl-2 text-muted">Forks ({props.item.forks_count})</li>
                 </ul>
+                {props.item.homepage && <a href={props.item.homepage} target="blank" className="card-link hvr-grow pr-2">Demo</a>}
                 <a href={props.item.html_url} target="blank" className="card-link hvr-grow">Repo link</a>
             </div>
         </div>
