@@ -20,7 +20,7 @@ function App() {
             <article>
               <section className="primary-content-section-cls">
                 <Switch>
-                  <Route path="/about" component={HomeComponent}></Route>
+                  <Route path="/me" component={HomeComponent}></Route>
                   <Route path="/resume" component={ResumeComponent}></Route>
                   <Route path="/contact" component={ContactComponent}></Route>
                   <Route path="/portfolio" component={PortfolioComponent}></Route>
