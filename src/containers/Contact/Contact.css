@@ -29,7 +29,7 @@
   -webkit-animation: mainFadeIn 2s forwards;
   -o-animation: mainFadeIn 2s forwards;
   animation: mainFadeIn 2s forwards;
-  animation-delay: 1.6s;
+  animation-delay: 0.5s;
   opacity: 0;
   display: flex;
   align-items: baseline;
@@ -40,7 +40,7 @@
   -webkit-animation: mainFadeIn 2s forwards;
   -o-animation: mainFadeIn 2s forwards;
   animation: mainFadeIn 2s forwards;
-  animation-delay: 1.6s;
+  animation-delay: 0.5s;
 }
 .contact-hero-cls .contact-sub-title-cls p {
   margin-top: -10px;
@@ -66,7 +66,7 @@
   -webkit-animation: mainFadeIn 2s forwards;
   -o-animation: mainFadeIn 2s forwards;
   animation: mainFadeIn 2s forwards;
-  animation-delay: 1.6s;
+  animation-delay: 0.5s;
 }
 
 @keyframes mainFadeIn {
