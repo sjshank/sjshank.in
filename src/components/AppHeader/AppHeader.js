@@ -16,7 +16,7 @@ const AppHeader = (props) => {
         <header className="header-section-cls">
             <div className="header-content-cls clearfix">
                 <div className="float-left pl-lg-4 pl-md-4 pl-sm-3 logo-box-cls" >
-                    <Link to="/about">
+                    <Link to="/me">
                         <div className="logo-symbol">SS</div>
                         {/* <div className="logo-img-box">
                             <img src="/ss-logo.png" alt="unavailable" className="logo-img" />
