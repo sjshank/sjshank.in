@@ -25,7 +25,7 @@ function App() {
                   <Route path="/contact" component={ContactComponent}></Route>
                   <Route path="/portfolio" component={PortfolioComponent}></Route>
                   <Route path="/blog" component={BlogComponent}></Route>
-                  <Redirect from="/" to="about" exact></Redirect>
+                  <Redirect from="/" to="me" exact></Redirect>
                 </Switch>
               </section>
             </article>
