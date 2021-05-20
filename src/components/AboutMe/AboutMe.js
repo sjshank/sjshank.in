@@ -18,7 +18,7 @@ const AboutMe = (props) => {
     return (
         <div className="home-text text-left pl-3 pt-4">
             <div className="dp-bar-cls pb-4 text-center">
-                <img src="/dp.png" alt="unavailable" className="dp-cls" />
+                <img src="/mask_dp.png" alt="unavailable" className="dp-cls" />
             </div>
             <div className="title">
                 <span className="block"></span>
