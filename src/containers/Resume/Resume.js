@@ -39,7 +39,7 @@ class ResumeComponent extends Component {
         }
         return (
             <React.Fragment>
-                <HeroSection title="Resume" subTitle="7 Years of Experience"></HeroSection>
+                <HeroSection title="Resume" subTitle="8 Years of Experience"></HeroSection>
                 {this.state.showSpinner &&
                     <Spinner></Spinner>
                 }
