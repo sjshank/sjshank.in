@@ -1,2 +1,2 @@
 # sjshank.com
-My Portfolio
+Checkout my portfolio at https://sjshank.com
