@@ -1,5 +1,5 @@
 export const NavigationList = [{
-    'link': '/about',
+    'link': '/me',
     'id': 'home',
     'name': 'About Me'
 },
